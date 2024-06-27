@@ -7,6 +7,11 @@ public class Main {
             result.append("I");
             number -= 1;
         }
+        if (number >= 4) {
+            result.append("IV");
+            number -= 4;
+        }
+
         return result.toString();
     }
 }
