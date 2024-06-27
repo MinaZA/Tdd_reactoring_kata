@@ -3,6 +3,14 @@ package kata;
 public class Main {
     public static String convert(int number) {
         StringBuilder result = new StringBuilder();
+        while (number >= 100) {
+            result.append("C");
+            number -= 100;
+        }
+        if (number >= 40) {
+            result.append("XL");
+            number -= 40;
+        }
         while (number >= 10) {
             result.append("X");
             number -= 10;
