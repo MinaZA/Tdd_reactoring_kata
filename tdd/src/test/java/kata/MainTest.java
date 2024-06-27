@@ -27,6 +27,15 @@ public class MainTest {
         assertEquals("X", Main.convert(10));
     }
     @Test
+    public void testConvert50() {
+        assertEquals("L", Main.convert(50));
+    }
+
+    @Test
+    public void testConvert90() {
+        assertEquals("XC", Main.convert(90));
+    }
+    @Test
     public void testConvert100() {
         assertEquals("C", Main.convert(100));
     }

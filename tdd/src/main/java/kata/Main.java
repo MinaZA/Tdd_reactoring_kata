@@ -7,6 +7,14 @@ public class Main {
             result.append("C");
             number -= 100;
         }
+        if (number >= 90) {
+            result.append("XC");
+            number -= 90;
+        }
+        if (number >= 50) {
+            result.append("L");
+            number -= 50;
+        }
         if (number >= 40) {
             result.append("XL");
             number -= 40;
