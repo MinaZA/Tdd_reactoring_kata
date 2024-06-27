@@ -18,4 +18,12 @@ public class MainTest {
     public void testConvert5() {
         assertEquals("V", Main.convert(5));
     }
+    @Test
+    public void testConvert9() {
+        assertEquals("IX", Main.convert(9));
+    }
+    @Test
+    public void testConvert10() {
+        assertEquals("X", Main.convert(10));
+    }
 }
