@@ -14,4 +14,8 @@ public class MainTest {
     public void testConvert4() {
         assertEquals("IV", Main.convert(4));
     }
+    @Test
+    public void testConvert5() {
+        assertEquals("V", Main.convert(5));
+    }
 }

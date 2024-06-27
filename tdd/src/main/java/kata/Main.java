@@ -11,6 +11,10 @@ public class Main {
             result.append("IV");
             number -= 4;
         }
+        if (number >= 5) {
+            result.append("V");
+            number -= 5;
+        }
 
         return result.toString();
     }
